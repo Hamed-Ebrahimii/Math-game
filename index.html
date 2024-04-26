@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  </head>
+  <body>
+    <div id="app" class="w-full flex items-center justify-center h-screen">
+      <div class="container glass">
+        <h1>Discrete Math Quiz</h1>
+        <div id="question"></div>
+        <div id="choices" class="grid grid-cols-2 grid-rows-2 justify-center items-center  gap-x-6 gap-y-3"></div>
+        <button id="nextButton">Next</button>
+        <div id="score">Score: 0</div>
+      </div>
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
